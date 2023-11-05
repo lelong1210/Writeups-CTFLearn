@@ -1,0 +1,2 @@
+#!/bin/bash
+curl "http://165.227.106.113/post.php" --data "username=admin&password=71urlkufpsdnlkadsf" #-x http://127.0.0.1:8080 -k

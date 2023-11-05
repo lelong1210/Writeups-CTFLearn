@@ -1,0 +1,2 @@
+#!/bin/bash
+curl -A "Sup3rS3cr3tAg3nt" --referer "awesomesauce.com"  "http://165.227.106.113/header.php" | awk '{print substr($0,20,35)}'

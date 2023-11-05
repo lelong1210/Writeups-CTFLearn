@@ -1,0 +1,4 @@
+#!/bin/bash
+#find folder hidden 
+#gobuster dir -u https://gobustme.ctflearn.com/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x .html,.php,.txt --threads 200  2>/dev/null | grep hide
+curl https://gobustme.ctflearn.com/hide/ | awk '{print substr($0,30,28)}'
